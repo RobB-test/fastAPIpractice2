@@ -1,0 +1,8 @@
+/.venv
+/__pycache__
+/altMain.py
+/main.py
+/newAltMain.py
+/test.py
+/test_server.py
+/tester.py
