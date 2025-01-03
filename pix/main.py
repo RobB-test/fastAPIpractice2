@@ -6,8 +6,10 @@ import json
 from pydantic import BaseModel
 from typing import Optional, Literal
 from fastapi.encoders import jsonable_encoder
+from mangum import Mangum
 
 app = FastAPI()
+handler = Mangum(app)
 
 # Book Model
 class Book(BaseModel):
